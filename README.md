@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-nonnegative-integer/tags). For example,
+
+```javascript
 import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@v0.1.0-esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@esm/index.mjs';
 ```
 
 #### isNonNegativeInteger( value )
@@ -127,7 +132,7 @@ bool = isNonNegativeInteger.isObject( new Number( 3.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@v0.1.0-esm/index.mjs';
+import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@esm/index.mjs';
 
 var bool = isNonNegativeInteger( 5.0 );
 // returns true
