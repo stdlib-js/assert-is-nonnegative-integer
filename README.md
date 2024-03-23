@@ -171,6 +171,8 @@ bool = isNonNegativeInteger( null );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/assert-is-integer`][@stdlib/assert/is-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having an integer value.</span>
+-   <span class="package-name">[`@stdlib/assert-is-nonnegative-number`][@stdlib/assert/is-nonnegative-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonnegative value.</span>
+-   <span class="package-name">[`@stdlib/assert-is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
 
 </section>
 
@@ -251,6 +253,10 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 <!-- <related-links> -->
 
 [@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert-is-integer
+
+[@stdlib/assert/is-nonnegative-number]: https://github.com/stdlib-js/assert-is-nonnegative-number
+
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number
 
 <!-- </related-links> -->
 
